@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bf0eebf-9ea1-404d-b88d-c404bb95f1b2" name="Changes" comment="DepartmentDao and SellerDao interfaces">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+    <list default="true" id="2bf0eebf-9ea1-404d-b88d-c404bb95f1b2" name="Changes" comment="SellerDaoJDBC and DaoFactory">
+      <change afterPath="$PROJECT_DIR$/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +43,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/projetos/javaUdemy/demo-dao-jdbc1/src/main/java"
+    "last_opened_file_path": "C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.32.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\projetos\javaUdemy\demo-dao-jdbc1\src\main\java" />
+      <recent name="C:\projetos\javaUdemy\demo-dao-jdbc1\src\main\java\db" />
+      <recent name="C:\projetos\javaUdemy\demo-dao-jdbc1" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674636484823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SellerDaoJDBC and DaoFactory">
+      <created>1674636815624</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674636815624</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +131,7 @@
     <MESSAGE value="Department entity class" />
     <MESSAGE value="Seller entity class" />
     <MESSAGE value="DepartmentDao and SellerDao interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="DepartmentDao and SellerDao interfaces" />
+    <MESSAGE value="SellerDaoJDBC and DaoFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="SellerDaoJDBC and DaoFactory" />
   </component>
 </project>
